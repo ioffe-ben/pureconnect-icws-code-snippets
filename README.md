@@ -4,6 +4,7 @@
 
 - ICWS SDK license (I3_FEATURE_ICWS_SDK) for your PureConnect environment;
 - IC user account credentials with appropriate rights & licenses;
+- Python 3.5+ version;
 
 ## What are in the snippets?
 - Generate list of users
