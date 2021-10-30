@@ -7,9 +7,7 @@
 - Python 3.5+ version;
 
 ## What are in the snippets?
-- Generate list of users
-- Generate list of workgroups
-- [Contribution guidelines for this project](User%20List/script.py)
+- Generate list of [users](User%20List/script.py) / [workgroups](User%20List/script.py) / [roles](User%20List/script.py);
 
 ## How to setup your environment
 - Download/install Python 3.5+
