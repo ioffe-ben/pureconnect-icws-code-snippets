@@ -8,6 +8,7 @@
 
 ## What are in the snippets?
 - Generate list of [users](User%20List/script.py) / [workgroups](User%20List/script.py) / [roles](User%20List/script.py);
+- Generate list of roles to users, users to roles
 
 ## How to setup your environment
 - Download/install Python 3.5+
