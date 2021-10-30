@@ -13,5 +13,4 @@
 ## How to setup your environment
 - Download/install Python 3.5+
 
-
 > **This project/work is my own and is in no way associated/attributed to any current or former employer.**
