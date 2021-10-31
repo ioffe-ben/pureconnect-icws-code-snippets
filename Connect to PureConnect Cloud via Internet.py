@@ -7,14 +7,14 @@ requests.packages.urllib3.disable_warnings()
 
 # region ICWS connection
 # region PureConnect Cloud enviroment
-servers_file = requests.get('https://apps.caas.com/**<friendlyname>**/customICWS/config/servers.json')
+servers_file = requests.get('https://apps.caas.com/<friendlyname>/customICWS/config/servers.json')
 j_servers_file = json.loads(servers_file.text)
 server = j_servers_file['servers'][0]['altHostHints']
 # endregion
 
 # region Connection variables
 baseURL = j_servers_file['serviceUrlTemplate'].replace("{host}/", server[0]) + "/icws/"
-userID = '**<ic username>**'
+userID = '<ic username>'
 password = '<ic password>'
 applicationName = '<application name>'
 language = "en-us"
