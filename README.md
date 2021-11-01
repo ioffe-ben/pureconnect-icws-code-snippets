@@ -12,7 +12,7 @@
 - start / stop / pause / resume all screen recordings for the specified user
 - start / pause interaction record state
 - send DTMF digits to an interaction
-- hold / mute / pause / secure pause specified interaction
+- hold / mute / pause / secure pause / disconnect specified interaction
 - plays a wave file to the call
 
 ## Prerequisites
