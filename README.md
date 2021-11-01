@@ -6,12 +6,15 @@
 - Generate list of roles to users, users to roles
 
 ## Prerequisites
-
 - ICWS SDK license (I3_FEATURE_ICWS_SDK) for your PureConnect environment;
 - IC user account credentials with appropriate rights & licenses;
 - Python 3.5+ version with any Python IDE (I prefer PyCharm);
 
 ## How to setup your environment
-- Download/install Python 3.5+ - https://www.python.org/downloads/
+- Download & install Python 3.5+ - https://www.python.org/downloads/
+- Within your Python terminal install "requests" module - ```pip install requests``` - more info about the module - https://pypi.org/project/requests/
+- Use following ICWS connection method based on your PureConnect enviromnet:
+  - PureConnect Permise
+  - PureConnect Cloud via Internet
 
 > **This project/work is my own and is in no way associated/attributed to any current or former employer.**
