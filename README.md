@@ -8,7 +8,7 @@
 ## Prerequisites
 - ICWS SDK license (I3_FEATURE_ICWS_SDK) for your PureConnect environment;
 - IC user account credentials with appropriate rights & licenses;
-- Python 3.5+ version with any Python IDE (I prefer PyCharm);
+- Python 3.5+ version with any Python IDE (I prefer [PyCharm](https://www.jetbrains.com/pycharm/download/));
 
 ## How to setup your environment
 - Download & install Python 3.5+ - https://www.python.org/downloads/
