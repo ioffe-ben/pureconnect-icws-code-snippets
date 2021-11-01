@@ -14,7 +14,7 @@
 - [send DTMF digits to an interaction]()
 - [hold]() / [mute]() / [pause]() / [secure pause]() / [disconnect]() specified interaction
 - [plays a wave file to the call]()
-- [send an email](Scripts/send%20an%20email.py#L27)
+- [send an email](Scripts/send%20an%20email.py#L47)
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment
