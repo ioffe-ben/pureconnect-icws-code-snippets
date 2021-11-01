@@ -12,7 +12,7 @@
 - get a set of attributes from an interaction / update the set of attributes on an interaction.
 
 ## Prerequisites
-- ICWS SDK license (I3_FEATURE_ICWS_SDK) for your PureConnect environment;
+- ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment;
 - IC user account credentials with appropriate rights & licenses;
 - Python 3.5+ version with any Python IDE (I prefer [PyCharm](https://www.jetbrains.com/pycharm/download/));
 
