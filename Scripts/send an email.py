@@ -1,16 +1,17 @@
-# Copyright (c) 2021, Ben Ioffe (https://github.com/ioffe-ben). All rights reserved. Copyrights licensed under the BSD 3-Clause License. See the accompanying LICENSE file for terms.
+# Copyright (c) 2021, Ben Ioffe (https://github.com/ioffe-ben). All rights reserved. 
+# Copyrights licensed under the BSD 3-Clause License. See the accompanying LICENSE file for terms.
+
+# Snipped description: 
 import json
 import requests
 
 # Disable warning for self-signed SSL certificates
 requests.packages.urllib3.disable_warnings()
 
-# region ICWS connection
-# region PureConnect Cloud enviroment
+# PureConnect Cloud enviroment
 servers_file = requests.get('<>')
 j_servers_file = json.loads(servers_file.text)
 server = j_servers_file['servers'][0]['altHostHints']
-# endregion
 
 # region Connection variables
 baseURL = j_servers_file['serviceUrlTemplate'].replace("{host}/", server[0]) + "/icws/"
@@ -18,7 +19,6 @@ userID = '<>'
 password = '<>'
 applicationName = '<>'
 language = "en-us"
-# endregion
 
 # region Connection Body and Header
 body = {'__type': 'urn:inin.com:connection:icAuthConnectionRequestSettings',
@@ -26,7 +26,6 @@ body = {'__type': 'urn:inin.com:connection:icAuthConnectionRequestSettings',
         'userID': userID,
         'password': password}
 header = {'Accept-Language': language}
-# endregion
 
 # region Connection request
 req = requests.post(baseURL + 'connection', headers=header, data=json.dumps(body), verify=False)
@@ -43,11 +42,8 @@ body = {'__type': 'urn:inin.com:connection:icAuthConnectionRequestSettings',
         'applicationName': applicationName,
         'sessionId': jreq['sessionId']}
 cookie = req.cookies
-# endregion
-# endregion
 
-# region Main code
-
+#Main code
 body = {'recipients': ["benyamin.ioffe@gmail.com"],
         'subject': 'Python Test Email',
         'body': 'This is a test message!'}
@@ -59,4 +55,3 @@ if req.status_code == 204:
 else:
     print('Response Header: ' + str(req.status_code))
     print('Error: ' + req.headers)
-# endregion
