@@ -2,8 +2,8 @@
 ***How to:***
 - connect to [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py) / [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py) environment
 - generate list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
-- generate list of users to licenses / licenses to users / workgroups to users / users to workgroups / roles to users / users to roles
-- send a Custom Notification to handlers and how to recive a Custom Notification from handlers
+- generate list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
+- [send a Custom Notification]() / [recive a Custom Notification]()
 - get and update IC user status / specific user's IC password
 - get and update System parameters / Server parameters / Structured parameters
 - get a set of attributes from an interaction / update the set of attributes on an interaction
