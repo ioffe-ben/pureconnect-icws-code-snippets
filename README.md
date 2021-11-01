@@ -2,9 +2,12 @@
 [desription]
 
 ## What are in the code snippets?
-- How to generate list of users / workgroups / roles / skills / wrap-up codes & category
-- How to generate list of users to license to users / user to license / workgroups to users / users to workgroups / roles to users / users to roles
-- How to send a Custom Notification to handlers and how to recive a Custom Notification from handlers
+How to:
+- generate list of users / workgroups / roles / skills / wrap-up codes & category
+- generate list of users to license to users / user to license / workgroups to users / users to workgroups / roles to users / users to roles
+- send a Custom Notification to handlers and how to recive a Custom Notification from handlers
+- get and update IC user status
+- get and update System parameters / Server parameters / Structured parameters
 
 ## Prerequisites
 - ICWS SDK license (I3_FEATURE_ICWS_SDK) for your PureConnect environment;
