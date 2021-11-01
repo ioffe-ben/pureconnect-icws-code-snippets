@@ -11,6 +11,9 @@
 - get the details for a phone number
 - start / stop / pause / resume all screen recordings for the specified user
 - start / pause interaction record state
+- send DTMF digits to an interaction
+- hold / mute / pause / secure pause specified interaction
+- plays a wave file to the call
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment;
