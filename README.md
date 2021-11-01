@@ -5,11 +5,13 @@
 ***How to:***
 - connect to [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py) and [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py)
 - generate list of [users]() / workgroups / roles / skills / wrap-up codes & category
-- generate list of users to license to users / user to license / workgroups to users / users to workgroups / roles to users / users to roles
+- generate list of users to licenses / licenses to users / workgroups to users / users to workgroups / roles to users / users to roles
 - send a Custom Notification to handlers and how to recive a Custom Notification from handlers
 - get and update IC user status
 - get and update System parameters / Server parameters / Structured parameters
 - get a set of attributes from an interaction / update the set of attributes on an interaction.
+- get and set workgroup activations for a single user
+- 
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment;
