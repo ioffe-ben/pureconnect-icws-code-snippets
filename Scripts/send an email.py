@@ -1,7 +1,8 @@
 # Copyright (c) 2021, Ben Ioffe (https://github.com/ioffe-ben). All rights reserved. 
-# Copyrights licensed under the BSD 3-Clause License. See the accompanying LICENSE file for terms.
+# Copyrights licensed under the BSD 3-Clause License. See the accompanying LICENSE file (https://github.com/ioffe-ben/icws-code-snippets/blob/main/LICENSE) for terms.
 
-# Snipped description: 
+# Code snippet description: the following snippet shows how to send an email using ICWS API.
+
 import json
 import requests
 
@@ -13,21 +14,21 @@ servers_file = requests.get('<>')
 j_servers_file = json.loads(servers_file.text)
 server = j_servers_file['servers'][0]['altHostHints']
 
-# region Connection variables
+# Connection variables
 baseURL = j_servers_file['serviceUrlTemplate'].replace("{host}/", server[0]) + "/icws/"
 userID = '<>'
 password = '<>'
 applicationName = '<>'
 language = "en-us"
 
-# region Connection Body and Header
+# Connection Body and Header
 body = {'__type': 'urn:inin.com:connection:icAuthConnectionRequestSettings',
         'applicationName': applicationName,
         'userID': userID,
         'password': password}
 header = {'Accept-Language': language}
 
-# region Connection request
+# Connection request
 req = requests.post(baseURL + 'connection', headers=header, data=json.dumps(body), verify=False)
 
 if 'csrfToken' in req.text:
@@ -43,7 +44,7 @@ body = {'__type': 'urn:inin.com:connection:icAuthConnectionRequestSettings',
         'sessionId': jreq['sessionId']}
 cookie = req.cookies
 
-#Main code
+# Main snippet logic
 body = {'recipients': ["benyamin.ioffe@gmail.com"],
         'subject': 'Python Test Email',
         'body': 'This is a test message!'}
