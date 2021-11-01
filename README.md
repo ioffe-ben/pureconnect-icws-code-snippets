@@ -9,8 +9,9 @@
 - send a Custom Notification to handlers and how to recive a Custom Notification from handlers
 - get and update IC user status
 - get and update System parameters / Server parameters / Structured parameters
-- get a set of attributes from an interaction / update the set of attributes on an interaction.
+- get a set of attributes from an interaction / update the set of attributes on an interaction
 - get and set workgroup activations for a single user
+- get the details for a phone number
 - 
 
 ## Prerequisites
