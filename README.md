@@ -12,7 +12,8 @@
 - get a set of attributes from an interaction / update the set of attributes on an interaction
 - get and set workgroup activations for a single user
 - get the details for a phone number
-- 
+- start / stop / pause / resume all screen recordings for the specified user
+- start / pause interaction record state
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment;
