@@ -3,6 +3,7 @@
 
 ## What are in the code snippets?
 ***How to:***
+- connect to [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py) and [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py)
 - generate list of [users]() / workgroups / roles / skills / wrap-up codes & category
 - generate list of users to license to users / user to license / workgroups to users / users to workgroups / roles to users / users to roles
 - send a Custom Notification to handlers and how to recive a Custom Notification from handlers
