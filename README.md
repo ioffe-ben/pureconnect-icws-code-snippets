@@ -4,7 +4,7 @@
 - generate list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
 - generate list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
 - [send a Custom Notification]() / [recive a Custom Notification]()
-- get and update IC user status / specific user's IC password
+- [get a specific IC user status]() / [update a specific IC user status]() / [set a specific IC user IC password]()
 - get and update System parameters / Server parameters / Structured parameters
 - get a set of attributes from an interaction / update the set of attributes on an interaction
 - get and set workgroup activations for a single user
@@ -14,7 +14,7 @@
 - send DTMF digits to an interaction
 - hold / mute / pause / secure pause / disconnect specified interaction
 - plays a wave file to the call
-- send an email
+- [send an email]()
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment
