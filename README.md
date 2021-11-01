@@ -13,8 +13,8 @@
 ## How to setup your environment
 - Download & install Python 3.5+ - https://www.python.org/downloads/
 - Within your Python terminal install "requests" module - ```pip install requests``` - more info about the module - https://pypi.org/project/requests/
-- Use following ICWS connection method based on your PureConnect enviromnet:
-  - [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py)
-  - [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py) 
+- Use one of the following ICWS connection methods based on your PureConnect enviromnet:
+  - for [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py)
+  - for [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py) 
 
 > **This project/work is my own and is in no way associated/attributed to any current or former employer.**
