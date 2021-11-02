@@ -4,7 +4,7 @@
 - generate list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
 - generate list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
 - [send a Custom Notification]() / [receive a Custom Notification]()
-- [get a specific IC user status]() / [update a specific IC user status]() / [set a specific IC user password]()
+- [get a specific IC user status](scripts/icws_user_status.py#L9) / [update a specific IC user status](scripts/icws_user_status.py#L15)
 - [retrive system parameter]() / [set system parameter]() / [retrive server parameter]() / [set server parameter]() / [retrive structured parameter]() / [set structured parameter]()
 - [get a set of attributes from an interaction]() / [update the set of attributes on an interaction]()
 - [get workgroup activations for a single user]() / [set workgroup activations for a single user]()
