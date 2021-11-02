@@ -1,6 +1,6 @@
 ## What are in the [ICWS (Interaction Center Web Services)](https://help.genesys.com/developer/cic/docs/icws/webhelp/conceptualcontent/welcome.htm) code snippets?
 ***How to:***
-- connect to [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py) / [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py) environment
+- connect to [PureConnect Premise](scripts/icws_premise_authentication.py) / [PureConnect Cloud via Internet](scripts/icws_cloud_authentication.py) environment
 - generate list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
 - generate list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
 - [send a Custom Notification]() / [receive a Custom Notification]()
@@ -25,8 +25,8 @@
 - Download & install Python 3.5+
 - Within your Python terminal install "requests" module - ```pip install requests``` - more info about the module - https://pypi.org/project/requests
 - Use one of the following ICWS connection methods based on your PureConnect enviromnet:
-  - for [PureConnect Premise](Scripts/Connect%20to%20PureConnect%20Premise.py)
-  - for [PureConnect Cloud via Internet](Scripts/Connect%20to%20PureConnect%20Cloud%20via%20Internet.py) 
+  - for [PureConnect Premise](scripts/icws_premise_authentication.py)
+  - for [PureConnect Cloud via Internet](scripts/icws_cloud_authentication.py) 
 
 Feel free to reach out to me with any questions, I do love a good coding challenge :v:
 
