@@ -1,5 +1,5 @@
 # Copyright (c) 2021, Ben Ioffe (github.com/ioffe-ben). All rights reserved. Copyrights licensed under the BSD 3-Clause License. See the accompanying LICENSE file for terms.
-# Code snippet description: the following snippet shows how to connect to PureConnect Cloud enviroment using ICWS API. 
+# Code snippet description: the following snippet shows how to connect to PureConnect Cloud environment using ICWS API. 
 import json
 import requests
 
@@ -30,7 +30,7 @@ request = requests.post(baseURL + 'connection', headers=header, data=json.dumps(
 
 if 'csrfToken' in request.text:
     json_connection_response = json.loads(request.text)
-    print('ICWS SESSION INITIATED!\n' + '-' * 30 + '\nCSRF Token: ' + json_connection_response['csrfToken'] + '\nSession ID: ' + json_connection_response['sessionId'] + '\n' + '-' * 30)
+    print('----ICWS SESSION INITIATED----\nCSRF Token: ' + json_connection_response['csrfToken'] + '\nSession ID: ' + json_connection_response['sessionId'] + '\n' + '-' * 30)
 else:
     print('Connection error: ' + request.text)
     raise ConnectionError('An error has occurred')
