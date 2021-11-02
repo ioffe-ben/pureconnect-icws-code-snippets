@@ -27,7 +27,7 @@ json_users = json.loads(request.text)
 
 i = 0
 while i < len(json_users['items']):
-    request_user_workgroups = requests.get(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/configuration/users/' + json_users['items'][i]['configurationId']['id'] + '?select=statusText', headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, verify=False)
-    json_user_workgroups = json.loads(request_user_workgroups.text)
-    print(json_users['items'][i]['configurationId']['id'] + ' (' + json_user_workgroups['statusText'] + ')')
+    request_user_statuses = requests.get(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/configuration/users/' + json_users['items'][i]['configurationId']['id'] + '?select=statusText', headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, verify=False)
+    json_user_statuses = json.loads(request_user_statuses.text)
+    print(json_users['items'][i]['configurationId']['id'] + ' (' + json_user_statuses['statusText'] + ')')
     i += 1
