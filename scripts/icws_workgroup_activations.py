@@ -2,7 +2,7 @@
 # Code snippet description: the following snippet shows how to set and get the workgroup activations for a single user using ICWS API.
 import json
 import requests
-import icws_cloud_authentication # or import icws_premise_authentication for PureConnect Premise (more details: https://github.com/ioffe-ben/icws-code-snippets/blob/main/scripts/icws_premise_authentication.py)
+import icws_cloud_authentication # or import icws_premise_authentication for PureConnect Premise (more details: https://github.com/ioffe-ben/pureconnect-icws-code-snippets/blob/main/scripts/icws_premise_authentication.py)
 
 # Get the current workgroup activations for a single user
 ic_username = '<ic_username>'
