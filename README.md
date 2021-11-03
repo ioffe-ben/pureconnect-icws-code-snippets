@@ -22,7 +22,7 @@
 - [Python 3.5+](https://www.python.org/downloads/) version with any Python IDE (I prefer [PyCharm](https://www.jetbrains.com/pycharm/download/))
 
 ## How to setup your environment
-- Download & install Python 3.5+
+- Download & install [Python 3.5+](https://www.python.org/downloads/)
 - Within your Python terminal install "requests" module - ```pip install requests``` - more info about the module - https://pypi.org/project/requests
 - Use one of the following ICWS connection methods based on your PureConnect enviromnet:
   - for [PureConnect Premise](scripts/icws_premise_authentication.py)
