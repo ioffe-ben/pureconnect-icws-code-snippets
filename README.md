@@ -16,6 +16,9 @@
 - [plays a wave file to the call]()
 - [send an email](scripts/icws_send_an_email.py)
 
+***Useful Scripts:***
+- [generate .csv file with IC user data]() (following data is provided: is username, display name, workgroups, roles, license active, client access, media level, additional licenses, auto answer acd interactions, auto answer non-acd interactions, nt domain username, current ic status, department, title, email address, extension, password policies, skills, date created)
+
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment
 - IC user account credentials with appropriate rights & licenses
