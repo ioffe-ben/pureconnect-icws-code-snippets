@@ -201,7 +201,7 @@ while i < len(json_users['items']):
                         passwordPolicies + ';' + \
                         str(autoAnswerAcdInteractions) + ';' + \
                         str(autoAnswerNonAcdInteractions) + ';\n'
-    print(str(i) + ' out of ' + str(len(json_users['items'])) + ' processed')
+    print(str(i) + ' out of ' + str(len(json_users['items'])) + ' are processed')
 
 with open('ic_user_data_export.csv', 'w') as file:
     file.write(csv_export_string)
