@@ -19,6 +19,7 @@
 
 ***Useful Scripts:***
 - [generate .csv file with IC user data](scripts/icws_user_data_csv_export.py) (following data is provided: ic username, display name, workgroups, roles, license active, client access, media level, list of additional licenses, auto answer acd interactions, auto answer non-acd interactions, nt domain username, current ic status, department, title, email address, extension, password policies, skills with utilization & proficiency, date ic account created)
+- [pass and retrive data between Python application and PureConnect server]()
 
 ## Prerequisites
 - ICWS SDK license ([I3_FEATURE_ICWS_SDK](https://help.genesys.com/pureconnect/mergedProjects/wh_tr/mergedProjects/wh_tr_icws_sdk_icg/desktop/what_is_the_icws_sdk.htm)) for your PureConnect environment
