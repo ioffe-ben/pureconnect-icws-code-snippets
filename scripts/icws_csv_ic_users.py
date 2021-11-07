@@ -5,14 +5,13 @@ import requests
 import icws_cloud_authentication # or import icws_premise_authentication for PureConnect Premise (more details: https://github.com/ioffe-ben/pureconnect-icws-code-snippets/blob/main/scripts/icws_premise_authentication.py)
 
 request = requests.get(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/configuration/users', headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, verify=False)
-json_users = json.loads(request.text)
+json_users = json.loads(request.text)Generate a .csv document with IC users
 
 i = 0
 csv_export_string = 'IC Usernames\n'
 
 while i < len(json_users['items']):
     request_user_data_all = requests.get(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/configuration/users/' + json_users['items'][i]['configurationId']['id'],headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, verify=False)
-    json_user_data = json.loads(request_user_data_all.text)
     ic_username = json_users['items'][i]['configurationId']['id']
     i += 1
     csv_export_string = csv_export_string + ic_username + '\n'
