@@ -33,4 +33,4 @@
 
 Feel free to reach out to me with any questions, I do love a good coding challenge :v:
 
-> **This project/work is my own and is in no way associated/attributed to any current or former employer.**
+> **This project/work is my own and is in no way associated/attributed to any current or former employer. See [license file](LICENSE) regarding permissions, limitations, and  conditions.**
