@@ -1,13 +1,13 @@
 ## What are in the [ICWS (Interaction Center Web Services)](https://help.genesys.com/developer/cic/docs/icws/webhelp/conceptualcontent/welcome.htm) code snippets?
 ***How to:***
 - connect to [PureConnect On-Premise](scripts/icws_premise_authentication.py) / [PureConnect Cloud via Internet](scripts/icws_cloud_authentication.py) environment (switchover supported)
-- generate list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
-- generate list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
+- generate a list of [users]() / [workgroups]() / [roles]() / [skills]() / [wrap-up codes & category]() / [status messages]()
+- generate a list of [users to licenses]() / [licenses to users]() / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
 - [subscribe to Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L7)  / [send a Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L22) / [receive a Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L36)
 - [get a specific IC user status](scripts/icws_user_status.py#L9) / [update a specific IC user status](scripts/icws_user_status.py#L15) / [retrieving a list of all IC users statuses](scripts/icws_user_status.py#L24)
 - [retrive system parameter]() / [set system parameter]() / [retrive server parameter]() / [set server parameter]() / [retrive structured parameter]() / [set structured parameter]()
 - [get a set of attributes from an interaction]() / [update the set of attributes on an interaction]()
-- [get workgroup activations for a single user]() / [set workgroup activations for a single user]()
+- [get a workgroup activations for a single user](scripts/icws_workgroup_activations.py#L7) / [set workgroup activations for a single user](scripts/icws_workgroup_activations.py#L13)
 - [get the details for a phone number]()
 - [start]() / [stop]() / [pause]() / [resume]() all screen recordings for the specified user
 - [start]() / [pause]() interaction record state
