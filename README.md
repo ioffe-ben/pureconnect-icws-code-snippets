@@ -5,7 +5,7 @@
 - generate a .csv document with [users to licenses](scripts/icws_csv_user_to_licenses.py) / [workgroups to users]() / [users to workgroups]() / [roles to users]() / [users to roles]()
 - generate a .csv document with [workgroups details]()
 - [subscribe to Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L7)  / [send a Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L22) / [receive a Custom Notification](scripts/icws_subscribe_send_receive_a_custom_notification.py#L36)
-- ![get a specific IC user status](scripts/icws_user_status.py#L9) / [update a specific IC user status](scripts/icws_user_status.py#L15) / [retrieving a list of all IC users statuses](scripts/icws_user_status.py#L24)
+- [get a specific IC user status](scripts/icws_user_status.py#L9) / [update a specific IC user status](scripts/icws_user_status.py#L15) / [retrieving a list of all IC users statuses](scripts/icws_user_status.py#L24)
 - [retrive system parameter]() / [set system parameter]() / [retrive server parameter]() / [set server parameter]() / [retrive structured parameter]() / [set structured parameter]()
 - [get a set of attributes from an interaction](scripts/icws_get_update_attributes.py#L10) / [update the set of attributes on an interaction](scripts/icws_get_update_attributes.py#L18)
 - [get a workgroup activations for a single user](scripts/icws_workgroup_activations.py#L7) / [set workgroup activations for a single user](scripts/icws_workgroup_activations.py#L13)
