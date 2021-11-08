@@ -13,7 +13,7 @@
 - [start]() / [stop]() / [pause]() / [resume]() all screen recordings for the specified user
 - [start]() / [pause]() interaction record state
 - [send DTMF digits to an interaction]()
-- [hold]() / [mute]() / [pause]() / [secure pause]() / [disconnect]() specified interaction
+- [hold]() / [mute]() / [pause]() / [record]() / [record]() / [send to voicemail]() / [pickup]() / [disconnect]() specified interaction
 - [plays a wave file to the call]()
 - ![send an email](scripts/icws_send_an_email.py)
 
