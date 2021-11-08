@@ -12,8 +12,7 @@
 - [get the details for a phone number](scripts/icws_phone_number_details.py)
 - [start]() / [stop]() / [pause]() / [resume]() all screen recordings for the specified user
 - [start]() / [pause]() interaction record state
-- [send DTMF digits to an interaction]()
-- [hold](scripts/icws_interaction_manipulation.py#L10) / [mute](scripts/icws_interaction_manipulation.py#L19) / [pause](scripts/icws_interaction_manipulation.py#L28) / [record](scripts/icws_interaction_manipulation.py#L37) / [send to voicemail](scripts/icws_interaction_manipulation.py#L49) / [pickup](scripts/icws_interaction_manipulation.py#L57) / [disconnect](scripts/icws_interaction_manipulation.py#L65) specified interaction
+- [hold](scripts/icws_interaction_manipulation.py#L10) / [mute](scripts/icws_interaction_manipulation.py#L19) / [pause](scripts/icws_interaction_manipulation.py#L28) / [record](scripts/icws_interaction_manipulation.py#L37) / [send to voicemail](scripts/icws_interaction_manipulation.py#L49) / [send DTMF digits to an interaction](scripts/icws_interaction_manipulation.py#L57) / [pickup](scripts/icws_interaction_manipulation.py#L66) / [disconnect](scripts/icws_interaction_manipulation.py#L74) specified interaction
 - [plays a wave file to the call]()
 - [send an email](scripts/icws_send_an_email.py)
 
