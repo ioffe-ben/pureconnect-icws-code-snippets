@@ -54,6 +54,15 @@ if request.status_code == 200:
 else:
     print(str(request.status_code) + ': Error')
 
+# Sends DTMF digits to an interaction
+body = {'dtmfDigits': '1'}
+request = requests.post(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/interactions/' + interaction_id + '/send-digits', headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, data=json.dumps(body), verify=False)
+
+if request.status_code == 200:
+    print(str(request.status_code) + ': the action was successfully performed')
+else:
+    print(str(request.status_code) + ': error')
+    
 # Performs a pickup on the interaction
 request = requests.post(icws_cloud_authentication.baseURL + icws_cloud_authentication.json_connection_response['sessionId'] + '/interactions/' + interaction_id + '/pickup', headers=icws_cloud_authentication.header, cookies=icws_cloud_authentication.cookie, verify=False)
 
