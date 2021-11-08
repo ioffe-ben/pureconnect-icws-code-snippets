@@ -15,7 +15,7 @@
 - [send an email](scripts/icws_send_an_email.py)
 
 ***Useful Scripts:***
-- [generate .csv file with IC user data](scripts/icws_user_data_csv_export.py) (following data is provided: ic username, display name, workgroups, roles, license active, client access, media level, list of additional licenses, auto answer acd interactions, auto answer non-acd interactions, nt domain username, current ic status, department, title, email address, extension, password policies, skills with utilization & proficiency, date ic account created)
+- [generate a .csv file with IC user data](scripts/icws_user_data_csv_export.py) (following data is provided: ic username, display name, workgroups, roles, license active, client access, media level, list of additional licenses, auto answer acd interactions, auto answer non-acd interactions, nt domain username, current ic status, department, title, email address, extension, password policies, skills with utilization & proficiency, date ic account created)
 - [pass and retrive data between Python application and PureConnect server](scripts/icws_subscribe_send_receive_a_custom_notification.py)
 
 ## Prerequisites
