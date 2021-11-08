@@ -11,9 +11,7 @@
 - [get a workgroup activations for a single user](scripts/icws_workgroup_activations.py#L7) / [set workgroup activations for a single user](scripts/icws_workgroup_activations.py#L13)
 - [get the details for a phone number](scripts/icws_phone_number_details.py)
 - [start]() / [stop]() / [pause]() / [resume]() all screen recordings for the specified user
-- [start]() / [pause]() interaction record state
-- [hold](scripts/icws_interaction_manipulation.py#L10) / [mute](scripts/icws_interaction_manipulation.py#L19) / [pause](scripts/icws_interaction_manipulation.py#L28) / [record](scripts/icws_interaction_manipulation.py#L37) / [send to voicemail](scripts/icws_interaction_manipulation.py#L49) / [send DTMF digits to an interaction](scripts/icws_interaction_manipulation.py#L57) / [pickup](scripts/icws_interaction_manipulation.py#L66) / [disconnect](scripts/icws_interaction_manipulation.py#L74) specified interaction
-- [plays a wave file to the call]()
+- [hold](scripts/icws_interaction_manipulation.py#L10) / [mute](scripts/icws_interaction_manipulation.py#L19) / [pause](scripts/icws_interaction_manipulation.py#L28) / [record](scripts/icws_interaction_manipulation.py#L37) / [send to voicemail](scripts/icws_interaction_manipulation.py#L49) / [send DTMF digits to an interaction](scripts/icws_interaction_manipulation.py#L57) / [plays a wave file to the call](scripts/icws_interaction_manipulation.py#L66) / [pickup](scripts/icws_interaction_manipulation.py#L75) / [disconnect](scripts/icws_interaction_manipulation.py#L83) specified interaction
 - [send an email](scripts/icws_send_an_email.py)
 
 ***Useful Scripts:***
