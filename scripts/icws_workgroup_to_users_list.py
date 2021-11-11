@@ -22,3 +22,6 @@ while i < len(json_workgroups['items']):
     except:
         print(json_workgroups['items'][i]['configurationId']['id'] + ' (NA)')
         i += 1
+
+        
+        
