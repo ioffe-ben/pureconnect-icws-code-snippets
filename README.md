@@ -1,4 +1,4 @@
-## What are in the [ICWS (Interaction Center Web Services)](https://help.genesys.com/developer/cic/docs/icws/webhelp/conceptualcontent/welcome.htm) code snippets?
+## What are in the [ICWS (Interaction Center Web Services)](https://help.genesys.com/developer/cic/docs/icws/webhelp/conceptualcontent/welcome.htm) code snippets? 
 ***How to:***
 - connect to [PureConnect On-Premise](scripts/icws_premise_authentication.py) / [PureConnect Cloud via Internet](scripts/icws_cloud_authentication.py) environment (switchover supported)
 - generate a .csv document with [IC users](scripts/icws_csv_data_export.py#L7) / [workgroups](scripts/icws_csv_data_export.py#L25) / [roles](scripts/icws_csv_data_export.py#L43) / [skills](scripts/icws_csv_data_export.py#L61) / [wrap-up codes](scripts/icws_csv_data_export.py#L79) / [wrap-up categories](scripts/icws_csv_data_export.py#L97)
